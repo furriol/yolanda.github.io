@@ -1,3 +1,17 @@
-<html>
-  <h1>Hola Mundo</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Autoplay</title>
+</head>
+<body>
+  <video id="video" width="600" height="400" controls autoplay muted>
+    <source src="https://drive.google.com/file/d/1QLFtMmhK8exURqm-zZTQRP_hql7-0W9m/view?usp=sharing" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+  <script>
+    document.getElementById('video').play();
+  </script>
+</body>
 </html>
